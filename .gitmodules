@@ -1,0 +1,3 @@
+[submodule "deepseek"]
+	path = deepseek
+	url = git@github.com:deepseek-php/deepseek-php-client.git
