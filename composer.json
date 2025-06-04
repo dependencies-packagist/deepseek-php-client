@@ -1,0 +1,35 @@
+{
+    "name": "deepseek/deepseek-php-client",
+    "description": "This is a community-driven, unofficial PHP SDK designed to simplify integration with the DeepSeek AI API.",
+    "keywords": [
+        "DeepSeek",
+        "deepseek sdk",
+        "deepseek-php-client"
+    ],
+    "type": "metapackage",
+    "license": "MIT",
+    "homepage": "https://github.com/dependencies-packagist/deepseek-php-client",
+    "authors": [
+        {
+            "name": "jundayw",
+            "email": "jundayw@126.com"
+        }
+    ],
+    "abandoned": "deepseek-php/deepseek-php-client",
+    "require": {
+        "deepseek-php/deepseek-php-client": "^2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "2.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
